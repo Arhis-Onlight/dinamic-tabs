@@ -47,12 +47,30 @@
         <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
         <p>Database is <strong>connected</strong></p>              
     </div>    
-    <div class="btn-group btn-group-justified" id="btn_grp">
+    <div class="btn-group">
         <button class="btn btn-success">Success</button>
         <button class="btn btn-success">Success</button>
         <button class="btn btn-success">Success</button>
-        <button class="btn btn-success">Success</button>
+        <div class="btn-group">
+            <button class="btn btn-success">Success</button>
+            <button class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+                <span class="caret"></span>
+            </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Test 1</a></li>
+                    <li><a href="#">Test 2</a></li>
+                </ul>
+        </div>        
     </div> 
+    <div class="btn-group">
+        <button class="btn btn-primary">
+            <span class="glyphicon glyphicon-search"></span>&nbsp;Search
+        </button>
+        <button class="btn btn-primary">
+            <span class="glyphicon glyphicon-print"></span>&nbsp;Print
+        </button>
+
+    </div>
     <ul class="nav nav-tabs">
         <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
         <li><a data-toggle="tab" href="#contacts">Contacts</a></li>
