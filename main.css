@@ -1,0 +1,81 @@
+
+
+body {
+    background-color: #fff;
+}
+/*.row :nth-child(even) {
+    background-color: rgb(202, 199, 199);
+}
+
+.row :nth-child(odd) {
+    background-color: #dee7de;
+}*/
+
+.main-container {
+    padding-top: 100px;
+}
+
+.index-intro {
+    width: 100%;
+    background-color: #f3f3f3;
+}    
+
+.index-intro .jumbotron {
+    padding: 100px 60px;
+    margin: 0px;
+    background-image: url(images/jumbotron_3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: 2px 2px rgb(8, 0, 0);
+    color: rgb(237, 247, 151);
+    
+}
+
+.index-intro .jumbotron h1 {
+    font-size: 50px;
+}
+
+/*Change standart of  Boostrap*/
+
+
+/********************************************/
+.index-gallery {
+    width:100%;
+    background-color: #fff;     
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.index-gallery h2 {
+   text-align: center;
+}
+
+.index-gallery p {
+    text-align: center;
+ }
+
+ .index-table {
+    width:100%;
+    background-color: #fff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.index-form {
+    width:100%;
+    background-color: #f3f3f3;
+    padding: 60px 0;
+    
+}
+
+#_jumbotron {
+    background-image: url(images/jumbotron.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top:0; 
+}
+
+#_jumbotron h2, #_jumbotron p {
+    color: #fff;
+}
