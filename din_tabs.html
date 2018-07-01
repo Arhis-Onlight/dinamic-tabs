@@ -197,8 +197,88 @@
     </ul>
 </div>
 
+<!--COLLAPSIBLE-->
+<button class="btn btn-danger" data-toggle="collapse" data-target="#youtube_video">Watch video</button>
+<div class="collapse" id="youtube_video">
+    <div class="embed-responsive embed-responsive-16by9">
+         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/M05vLxZGC60" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+</div>
 
+<div class="panel-group">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" href="#coll1">Collapsible list group</a>
+            </h4>
+        </div>
+        <div id="coll1" class="panel-collapse collapse">
+            <ul class="list-group">
+                <li class="list-group-item">One</li>
+                <li class="list-group-item">Two</li>
+                <li class="list-group-item">Three</li>
+            </ul>
+            <div class="panel-footer">Footer</div>
+        </div>
+    </div>
+</div>
 
+<!--ACCORDION-->
+
+<div class="panel-group" id="accordion">
+    
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a href="#collapse1" data-toggle="collapse" data-parent="#accordion">
+                    Collapsible Group 1
+                </a>
+            </h4>
+        </div>
+    </div>
+    <div id="collapse1" class="panel-collapse collapse in">
+        <div class="panel-body">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+        </div>
+    </div>
+    <!---->
+    <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a href="#collapse2" data-toggle="collapse" data-parent="#accordion">
+                        Collapsible Group 2
+                    </a>
+                </h4>
+            </div>
+        </div>
+        <div id="collapse2" class="panel-collapse collapse">
+            <div class="panel-body">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+            </div>
+        </div>
+        <!---->
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a href="#collapse3" data-toggle="collapse" data-parent="#accordion">
+                        Collapsible Group 3
+                    </a>
+                </h4>
+            </div>
+        </div>
+        <div id="collapse3" class="panel-collapse collapse">
+            <div class="panel-body">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+            </div>
+        </div>
+        <!---->
+</div>
 
     <ul class="nav nav-tabs">
         <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
