@@ -1,0 +1,63 @@
+body {
+    font: 18px "Montserrat", sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+}
+
+ .navbar-brand span {
+     color:rgb(28, 25, 61);
+     font-weight: 800;
+ }
+
+div.container{
+    margin-left: 0;
+}
+.navbar {
+    margin-bottom: 0px;
+    border-radius: 0;
+    letter-spacing: 4px;
+    box-shadow: 1px 1px 10px #fff;
+}
+
+.container-fluid {
+    padding: 50px 0px;
+    box-shadow: 100px 50px red;  
+}
+
+ 
+
+#img-me {
+    width:40%;
+    display: inline;
+}
+
+.bg-1 {
+    background-color: #1fc5af;
+    color: #fff;
+}
+
+.bg-2 {
+    background-color: #fff;
+    color: #555;
+    line-height: 50px;
+   
+}
+
+.bg-3 {
+    background-color: #36293b;
+    color: #fff; 
+}
+
+.bg-3 p {
+    margin-bottom: 50px;
+}
+
+
+.bg-4 {
+    background-color: rgb(8, 13, 14);
+    color: rgb(241, 240, 240);
+    font-size: 2rem;
+}
+
+ 
+
