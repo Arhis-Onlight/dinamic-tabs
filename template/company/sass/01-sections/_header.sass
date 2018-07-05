@@ -1,0 +1,50 @@
+/*HEADER STYLES*/
+/*=============*/
+
+$n: "navbar"
+%ccs
+    color: $common-text-color !important
+
+.jumbotron
+    background-color: $background-color
+    color: $common-text-color
+    padding: 100px 25px
+    font-family: Montserrat, sans-serif 
+
+.navbar
+    font-family: Montserrat, sans-serif 
+    margin-bottom: 0
+    background-color: $background-color
+    z-index: 9999
+    border: 0
+        radius: 0
+    font-size: 12px !important
+    line-height: 1.42857143 !important
+    letter-spacing: 4px
+    li 
+        a
+            @extend %ccs 
+    &-brand
+        @extend %ccs
+    &-nav
+        %crs
+            color: $background-color !important        
+            background-color: $common-text-color !important        
+        li   
+            a:hover 
+                @extend %crs                           
+            &.active
+                a
+                    @extend %crs
+    &-default
+        .#{$n}-toggle
+            border-color: transparent 
+            @extend %ccs
+            
+            
+
+    
+           
+
+
+/***********************/

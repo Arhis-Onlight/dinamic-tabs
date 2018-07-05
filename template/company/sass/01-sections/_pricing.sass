@@ -1,0 +1,36 @@
+/*PRICING STYLES*/
+
+.panel
+    border: 1px solid $background-color
+        radius: 0
+    transition: box-shadow 0.5s
+    &:hover
+        box-shadow: 5px 0px 40px rgba(0,0,0, .2)
+    &-footer
+        .btn:hover
+            border: 1px solid $background-color
+            background-color: $common-text-color !important
+            color: $background-color
+    &-heading
+        color:  $common-text-color !important
+        background-color: $background-color !important
+        padding: 25px
+        border:
+            bottom: 1px solid transparent
+                left-radius: 0px
+                right-radius: 0px
+            top:
+                left-radius: 0px
+                right-radius: 0px
+    &-footer
+        h3
+            font-size: 32px
+        h4
+            color: #aaa
+            font-size: 14px
+        .btn
+            margin: 15px 0
+            background-color: $background-color
+            color: $common-text-color
+
+            
